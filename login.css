@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+.nav{
+    background-color: #007185;
+    height: 40px;
+}
+.logo{
+    font-size: 20px;
+    padding-left: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.name{
+    padding-top: 10px;
+    margin-left: 5px;
+}
+main{
+    margin-top: 10px;
+}
+.h2{
+    padding-left: 10px;
+    font-size: 23px;
+}
+.container{
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 480px;
+    width: 90%;
+    border: 2px solid #b7b7b7;
+}
+.first{
+    background-color:#b7b7b75a ;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first p{
+    font-size: 14px;
+    font-weight: 600;
+}
+.s1{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.s1 p{
+    font-size: 15px;
+    font-weight: 600;
+}
+.signin{
+    height: 320px;
+    border-bottom: 2px solid #dddddd;
+}
+.first a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+.s2{
+    height: 270px;
+    padding: 4px 10px;
+}
+#email{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 98%;
+    height: 30px;
+    border-bottom: 2px solid #dddddd87;
+}
+.btn{
+    margin-top: 12px;
+    width: 98%;
+    height: 40px;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: rgb(255, 187, 0);
+    border-radius: 10px;
+}
+.p1{
+    margin-top: 19px;
+    font-size: 16px;
+    font-weight: 550;
+    margin-bottom: 35px;
+}
+a{
+    text-decoration: none;
+}
+.cap, .cap2{
+    
+    padding: 10px 10px;
+}
+.cap p{
+    font-size: 16px;
+    font-weight: 550;
+}
+.cap2 a{
+    font-weight: 550;
+}
+footer{
+    height: 180px;
+    background-color: rgb(0, 7, 17);
+    color: white;
+}
+.condition a{
+    color: white;
+}
+.privacy a{
+    color: white;
+}
+.ads a{
+    color: white;
+}
+.lan, .country{
+    margin-top: 20px;
+}
+.f1, .f2{
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.f2{
+    font-size: 12px;
+}
+ .aaa{
+    color: white;
+}
+.copyr{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media only screen and (min-width:450px){
+    .nav{
+        height: 60px;
+    }
+    .logo, .h2{
+        font-size: 25px;
+    }
+    .first a{
+        font-size: 19px;
+    }
+    .first p{
+        font-size: 15px;
+    }
+    .card{
+        height: 550px;
+    }
+    .s1 a{
+        font-size: 19px;
+    }
+    .s2 p{
+        font-size: 15px;
+    }
+    .s2 h2{
+        font-size: 22px;
+    }
+    #email{
+        height: 40px;
+    }
+    .btn{
+        height: 40px;
+    }
+    .f1, .f2{
+        font-size: 17px;
+    }
+    .copyr{
+        
+        font-size: 17px;
+    }
+    .cap p{
+        
+        font-size: 17px;
+    }
+    .cap2 a{
+        
+        font-size: 17px;
+    }
+}

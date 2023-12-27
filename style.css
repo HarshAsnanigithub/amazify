@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+.fa-brands, .fa-solid{
+    color: white;
+}
+.nav{
+    display: flex;
+    /* gap: 17px; */
+    justify-content: space-between;
+    padding: 0 8px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.name{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    padding-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.all{
+    color: white;
+    margin-left: 7px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.all i{
+    margin-right: 4px;
+}
+.ss{
+    margin-right: 4px;
+}
+.in{
+    color: white;
+    font-size: 13px;
+    font-weight: 550;
+}
+.d{
+    padding-left: 11px;
+    color: white;
+    font-size: 12px;
+}
+.header{
+    background-color: #007185;
+    height: 70px;
+}
+
+.loco{
+    padding-top: 10px;
+}
+.aclogo, .clogo{
+    padding-top: 15px;
+}
+.searchi{
+    color: black;
+}
+.bn{
+    background-color: rgb(255, 154, 117);
+    border: none;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.sarea{
+    width: 86%;
+    height: 20px;
+    margin-left: 10px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.search{
+    display: flex;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background-color: #007185e2;
+    height: 40px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+.deal{
+    letter-spacing: -0.6px;
+}
+.heros{
+    margin: 5px 0 ;
+    background-color: rgba(128, 128, 128, 0.077);
+    height: 500px;
+}
+.firstimg, .secimg{
+
+    width: 49%;
+}
+.cap{
+    background-color: #005362a2 ;
+    padding: 5px 0 ;
+    text-align: center;
+    color: white;
+}
+.cap p{
+    padding: 0 15px;
+}
+.me{
+    font-weight: 700;
+}
+.box1, .box2, .box3, .box4, .box18, .box19, .box20, .box21{
+    
+    height: 130px;
+    width: 160px;
+}
+.sections, .sections2{
+    height: 275px;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 50vw 50vw;
+}
+.moviess{
+    background-color:  rgba(128, 128, 128, 0.088);
+    height: 450px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 33vw 33vw 33vw;
+}
+.heading, .heading2{
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: -1px;
+}
+.arr{
+    color: black;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+.box1, .box2, .box3, .box4, .box18, .box19, .box20, .box21{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.box1{
+    background: url("images/box8_image.jpg");
+    background-size: cover;
+}
+.box2{
+    background: url("images/vivo_y51l.webp");
+    background-size: cover;
+}
+.box3{
+    background: url("images/toys.avif");
+    background-size: cover;
+}
+.box4{
+    background: url("images/images.jpg");
+    background-size: cover;
+}
+.box5{
+    background: url("images/1.jpg");
+    background-size: cover;
+}
+.box6{
+    background: url("images/2.webp");
+    background-size: cover;
+}
+.box7{
+    background: url("images/3.webp");
+    background-size: cover;
+}
+.box8{
+    background: url("images/4.jpg");
+    background-size: cover;
+}
+.box9{
+    background: url("images/5.png");
+    background-size: cover;
+}
+.box10{
+    background: url("images/6.jpg");
+    background-size: cover;
+}
+.box11{
+    background: url("images/7.webp");
+    background-size: cover;
+}
+.box12{
+    background: url("images/8.jpg");
+    background-size: cover;
+}
+.box13{
+    background: url("images/9.jpg");
+    background-size: cover;
+}
+.movie{
+    margin-top: 15px;
+}
+.box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13{
+    background-color: black;
+    height: 130px;
+    width: 100px;
+    border: 2px dotted black;
+}
+.p{
+    font-size: 19px;
+    font-weight: 700;
+}
+.box18{
+    background: url("images/111.jpg");
+    background-size: cover;
+}
+.box19{
+    background: url("images/12.jpg");
+    background-size: cover;
+}
+.box20{
+    background: url("images/13.webp");
+    background-size: cover;
+}
+.box21{
+    background: url("images/14.jpg");
+    background-size: cover;
+}
+.heading2{
+    margin: 15px 0;
+}
+.sections2{
+    background-color:rgba(128, 128, 128, 0.068) ;
+    border-radius: 10px;
+}
+.sec3{
+    height: 370px;
+    margin-top: 60px;
+}
+.r1, .r2, .r3{
+    border: 2px solid rgba(128, 128, 128, 0.186);
+    height: 120px;
+}
+.r1-img{
+    height: 100%;
+    width: 130px;
+    background: url("images/19.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid gray;
+}
+.r2-img{
+    height: 100%;
+    width: 130px;
+    background: url("images/15.webp");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid gray;
+
+}
+
+.r3-img{
+    height: 100%;
+    width: 130px;
+    background: url("images/17.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid gray;
+}
+.r1, .r2, .r3{
+    display: flex;
+}
+.p1{
+    margin-left: 25px;
+    width: 60%;
+    font-size: 16px;
+}
+.money{
+    font-size: 23px;
+    font-weight: 600;
+}
+sup{
+    font-size: 16px;
+    font-weight: 600;
+}
+span{
+    margin-left: 15px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.dec{
+    margin-left: 0;
+    text-decoration: line-through;
+}
+.sec4{
+    margin-top: 20px;
+    background-color: rgba(128, 128, 128, 0.071);
+}
+.bests{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arr2{
+    color: black;
+    margin-right: 15px;
+}
+.box22{
+    background: url("images/22.webp");
+    background-size: cover;
+}
+.box23{
+    background: url("images/23.jpg");
+    background-size: cover;
+}
+.box24{
+    background: url("images/24.jpg");
+    background-size: cover;
+}
+.box25{
+    background: url("images/25.webp");
+    background-size: cover;
+    background-position: center;
+}
+.aa{
+    text-decoration: none;
+    color: #dddddd;
+}
+
+.box26{
+    background: url("images/26.jpg");
+    background-size: cover;
+}
+.box27{
+    background: url("images/27.jpg");
+    background-size: cover;
+}
+.box28{
+    background: url("images/28.jpg");
+    background-size: cover;
+}
+.sec5{
+    margin: 13px 0;
+}
+.top, .about{
+    height: 20px;
+    background-color: #232f3ed8;
+    color: #dddddd;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot{
+    height: 160px;
+    background-color: #232f3e; 
+    display: grid;
+    grid-template-columns: 50vw 50vw;  
+    justify-items: center;
+    color: #dddddd;
+}
+.firstsec a{
+    color: #dddddd;
+    text-decoration: none;
+}
+.secsec a{
+    color: #dddddd;
+    text-decoration: none;
+}
+.firstsec p{
+    margin-top: 10px;
+}
+.secsec p{
+    margin-top: 9px;
+}
+.about a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #dddddd;
+}
+
+@media only screen and (min-width:450px){
+    .header{
+        height: 120px;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .name{
+        font-size: 28px;
+    }
+    .d, .in{
+        font-size: 18px;
+    }
+    .sarea{
+        width: 96%;
+        height: 37px;
+        margin-top: 18px;
+        margin-left: 10px;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+    .bn{
+        margin-top: 18px;
+    }
+    .aclogo, .clogo{
+        font-size: 23px;
+        padding-top: 17px;
+    }
+    .menu{
+        height: 50px;
+        gap: 40px;
+        letter-spacing: 1.5px;
+    }
+    .all, .menu a{
+        font-size: 17px;
+    }
+    .heros{
+        height: 580px;
+    }
+    .cap{
+        height: 65px;
+        padding-top: 13px;
+        font-size: 19px;
+    }
+    .sections, .sections2{
+        height: 630px;
+    }
+    .box1, .box2, .box3, .box4, .box18, .box19, .box20, .box21{
+        margin-top: 10px;
+        height: 260px;
+        width: 350px;
+        font-size: 24px;
+        border: 2px solid #b4b3b3;
+    }
+    .heading h2{
+        font-size: 21px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .heading2 h2{
+        font-size: 21px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .arr, .arr2{
+        font-size: 17px;
+    }
+    .moviess{
+        padding-top: 14px;
+        height: 1100px;
+    }
+    .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13{
+        height: 360px;
+        width: 310px;
+        background-position: bottom;
+        border: 2px solid #b4b3b3;
+    }
+    .r1, .r2, .r3{
+        height: 160px;
+    }
+    .r1-img, .r2-img, .r3-img{
+         width: 170px;
+         margin-left: 13px;
+    }
+      .sec3{
+              height: 480px;
+            margin-top: 10px;
+     }
+     .p1{
+        padding-top: 50px;
+        padding-left: 20px;
+     }
+     .h2{
+        margin-left: 10px;
+        font-size: 21px;
+     }
+     .box22, .box23, .box24, .box25{
+        height: 300px;
+        width: 250px;
+     }
+     .box23, .box24{
+        background-position: center;
+     }
+     .top, .about{
+        height: 35px;
+     }
+     .foot{
+        height: 230px;
+     }
+     .about , .foot, .top{
+        font-size: 15px;
+     }
+       .border{
+             border:2px solid transparent;
+        }
+         .border:hover{
+           border: 2px solid white;
+        } 
+} 
+
+
+/* for desktop
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+} */
